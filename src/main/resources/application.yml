@@ -8,7 +8,6 @@ spring:
     properties:
       hibernate:
         show_sql: true
-        ddl-auto: create-drop
   liquibase:
     change-log: db/changelog/db.changelog-master.yaml
 server:
